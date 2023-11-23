@@ -1,0 +1,6 @@
+<aspectj>
+  <aspects>
+	<aspect name="com.petshop.aspects.OfferCreatedAspect"/>
+  </aspects>
+  <weaver options="-Xset:weaveJavaxPackages=true"/>
+</aspectj>
